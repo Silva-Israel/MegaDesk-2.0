@@ -30,7 +30,6 @@
         {
             this.getQuote = new System.Windows.Forms.Button();
             this.deskWidthLabel = new System.Windows.Forms.Label();
-            this.enterFullNameLabel = new System.Windows.Forms.Label();
             this.deskDepthLabel = new System.Windows.Forms.Label();
             this.fullNameLabel = new System.Windows.Forms.Label();
             this.fullName = new System.Windows.Forms.TextBox();
@@ -50,7 +49,7 @@
             // getQuote
             // 
             this.getQuote.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.getQuote.Location = new System.Drawing.Point(235, 357);
+            this.getQuote.Location = new System.Drawing.Point(233, 379);
             this.getQuote.Name = "getQuote";
             this.getQuote.Size = new System.Drawing.Size(92, 31);
             this.getQuote.TabIndex = 7;
@@ -61,27 +60,17 @@
             // 
             this.deskWidthLabel.AutoSize = true;
             this.deskWidthLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.deskWidthLabel.Location = new System.Drawing.Point(79, 180);
+            this.deskWidthLabel.Location = new System.Drawing.Point(82, 135);
             this.deskWidthLabel.Name = "deskWidthLabel";
             this.deskWidthLabel.Size = new System.Drawing.Size(81, 18);
             this.deskWidthLabel.TabIndex = 2;
             this.deskWidthLabel.Text = "Desk width";
             // 
-            // enterFullNameLabel
-            // 
-            this.enterFullNameLabel.AutoSize = true;
-            this.enterFullNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.enterFullNameLabel.Location = new System.Drawing.Point(79, 87);
-            this.enterFullNameLabel.Name = "enterFullNameLabel";
-            this.enterFullNameLabel.Size = new System.Drawing.Size(239, 18);
-            this.enterFullNameLabel.TabIndex = 3;
-            this.enterFullNameLabel.Text = "Please enter the information below:";
-            // 
             // deskDepthLabel
             // 
             this.deskDepthLabel.AutoSize = true;
             this.deskDepthLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.deskDepthLabel.Location = new System.Drawing.Point(219, 180);
+            this.deskDepthLabel.Location = new System.Drawing.Point(222, 135);
             this.deskDepthLabel.Name = "deskDepthLabel";
             this.deskDepthLabel.Size = new System.Drawing.Size(83, 18);
             this.deskDepthLabel.TabIndex = 4;
@@ -91,7 +80,7 @@
             // 
             this.fullNameLabel.AutoSize = true;
             this.fullNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.fullNameLabel.Location = new System.Drawing.Point(79, 128);
+            this.fullNameLabel.Location = new System.Drawing.Point(82, 83);
             this.fullNameLabel.Name = "fullNameLabel";
             this.fullNameLabel.Size = new System.Drawing.Size(72, 18);
             this.fullNameLabel.TabIndex = 6;
@@ -99,7 +88,7 @@
             // 
             // fullName
             // 
-            this.fullName.Location = new System.Drawing.Point(82, 149);
+            this.fullName.Location = new System.Drawing.Point(85, 104);
             this.fullName.Name = "fullName";
             this.fullName.Size = new System.Drawing.Size(240, 20);
             this.fullName.TabIndex = 1;
@@ -108,7 +97,7 @@
             // 
             this.numberDrawersLabel.AutoSize = true;
             this.numberDrawersLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numberDrawersLabel.Location = new System.Drawing.Point(79, 235);
+            this.numberDrawersLabel.Location = new System.Drawing.Point(82, 190);
             this.numberDrawersLabel.Name = "numberDrawersLabel";
             this.numberDrawersLabel.Size = new System.Drawing.Size(135, 18);
             this.numberDrawersLabel.TabIndex = 8;
@@ -126,7 +115,7 @@
             "5",
             "6",
             "7"});
-            this.numberOfDrawers.Location = new System.Drawing.Point(82, 256);
+            this.numberOfDrawers.Location = new System.Drawing.Point(85, 211);
             this.numberOfDrawers.Name = "numberOfDrawers";
             this.numberOfDrawers.Size = new System.Drawing.Size(100, 21);
             this.numberOfDrawers.TabIndex = 4;
@@ -136,7 +125,7 @@
             // 
             this.surfaceMaterialLabel.AutoSize = true;
             this.surfaceMaterialLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.surfaceMaterialLabel.Location = new System.Drawing.Point(79, 290);
+            this.surfaceMaterialLabel.Location = new System.Drawing.Point(82, 245);
             this.surfaceMaterialLabel.Name = "surfaceMaterialLabel";
             this.surfaceMaterialLabel.Size = new System.Drawing.Size(173, 18);
             this.surfaceMaterialLabel.TabIndex = 10;
@@ -145,13 +134,7 @@
             // desktopMaterial
             // 
             this.desktopMaterial.FormattingEnabled = true;
-            this.desktopMaterial.Items.AddRange(new object[] {
-            "Laminate",
-            "Oak",
-            "Rosewood",
-            "Veneer",
-            "Pine"});
-            this.desktopMaterial.Location = new System.Drawing.Point(82, 311);
+            this.desktopMaterial.Location = new System.Drawing.Point(85, 266);
             this.desktopMaterial.Name = "desktopMaterial";
             this.desktopMaterial.Size = new System.Drawing.Size(100, 21);
             this.desktopMaterial.TabIndex = 5;
@@ -161,7 +144,7 @@
             // 
             this.rushOrderLabel.AutoSize = true;
             this.rushOrderLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rushOrderLabel.Location = new System.Drawing.Point(79, 346);
+            this.rushOrderLabel.Location = new System.Drawing.Point(82, 301);
             this.rushOrderLabel.Name = "rushOrderLabel";
             this.rushOrderLabel.Size = new System.Drawing.Size(112, 18);
             this.rushOrderLabel.TabIndex = 12;
@@ -175,7 +158,7 @@
             "5 days (Super Rush)",
             "7 days (Rush)",
             "14 days (Classic)"});
-            this.comboBox1.Location = new System.Drawing.Point(82, 367);
+            this.comboBox1.Location = new System.Drawing.Point(85, 322);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(100, 21);
             this.comboBox1.TabIndex = 6;
@@ -183,7 +166,7 @@
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(82, 201);
+            this.numericUpDown1.Location = new System.Drawing.Point(85, 156);
             this.numericUpDown1.Maximum = new decimal(new int[] {
             96,
             0,
@@ -205,7 +188,7 @@
             // 
             // numericUpDown2
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(222, 201);
+            this.numericUpDown2.Location = new System.Drawing.Point(225, 156);
             this.numericUpDown2.Maximum = new decimal(new int[] {
             48,
             0,
@@ -252,7 +235,6 @@
             this.Controls.Add(this.fullName);
             this.Controls.Add(this.fullNameLabel);
             this.Controls.Add(this.deskDepthLabel);
-            this.Controls.Add(this.enterFullNameLabel);
             this.Controls.Add(this.deskWidthLabel);
             this.Controls.Add(this.getQuote);
             this.Name = "AddQuote";
@@ -268,7 +250,6 @@
 
         private System.Windows.Forms.Button getQuote;
         private System.Windows.Forms.Label deskWidthLabel;
-        private System.Windows.Forms.Label enterFullNameLabel;
         private System.Windows.Forms.Label deskDepthLabel;
         private System.Windows.Forms.Label fullNameLabel;
         private System.Windows.Forms.TextBox fullName;

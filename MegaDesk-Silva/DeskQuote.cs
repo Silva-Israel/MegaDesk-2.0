@@ -8,6 +8,14 @@ namespace MegaDesk_Silva
 {
     class DeskQuote
     {
+        public enum DesktopMaterial {
+            laminate,
+            oak,
+            rosewood,
+            veneer,
+            pine
+        }
+
 
     }
 }
