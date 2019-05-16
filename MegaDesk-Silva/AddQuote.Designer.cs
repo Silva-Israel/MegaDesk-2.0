@@ -49,7 +49,7 @@
             // getQuote
             // 
             this.getQuote.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.getQuote.Location = new System.Drawing.Point(233, 379);
+            this.getQuote.Location = new System.Drawing.Point(287, 375);
             this.getQuote.Name = "getQuote";
             this.getQuote.Size = new System.Drawing.Size(92, 31);
             this.getQuote.TabIndex = 7;
@@ -70,7 +70,7 @@
             // 
             this.deskDepthLabel.AutoSize = true;
             this.deskDepthLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.deskDepthLabel.Location = new System.Drawing.Point(222, 135);
+            this.deskDepthLabel.Location = new System.Drawing.Point(276, 135);
             this.deskDepthLabel.Name = "deskDepthLabel";
             this.deskDepthLabel.Size = new System.Drawing.Size(83, 18);
             this.deskDepthLabel.TabIndex = 4;
@@ -90,7 +90,7 @@
             // 
             this.fullName.Location = new System.Drawing.Point(85, 104);
             this.fullName.Name = "fullName";
-            this.fullName.Size = new System.Drawing.Size(240, 20);
+            this.fullName.Size = new System.Drawing.Size(294, 20);
             this.fullName.TabIndex = 1;
             // 
             // numberDrawersLabel
@@ -188,7 +188,7 @@
             // 
             // numericUpDown2
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(225, 156);
+            this.numericUpDown2.Location = new System.Drawing.Point(279, 156);
             this.numericUpDown2.Maximum = new decimal(new int[] {
             48,
             0,
@@ -222,7 +222,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(412, 441);
+            this.ClientSize = new System.Drawing.Size(467, 441);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.numericUpDown2);
             this.Controls.Add(this.numericUpDown1);
